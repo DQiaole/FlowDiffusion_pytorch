@@ -26,7 +26,7 @@ pip install imagen-pytorch accelerate diffusers["torch"] tensorflow-cpu tensorfl
 ```
 
 ## Models
-We provide pretrained [models](). The default path of the models for evaluation is:
+We provide pretrained models on the [releases page](https://github.com/DQiaole/FlowDiffusion_pytorch/releases/tag/v1.0.0). The default path of the models for evaluation is:
 ```Shell
 ├── check_points
     ├── autoflow-ImagenUnet/pipeline-900000
