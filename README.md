@@ -10,11 +10,12 @@ This repo contains all codes and models of our [technique report](), including a
 
 AF-pretraining:
 
-|           | Pretraining      | Network               | Iteration | Sintel.clean | Sintel.final | KITTI | KITTI Fl-all |
-|:---------:|------------------|-----------------------|-----------|:------------:|:------------:|:-----:|:------------:|
-|   Paper   |  Palette-style   | Imagen                | Unknow    |     2.04     |     2.55     | 4.47  |    16.59%    |
-| This repo | From the Scratch | Imagen                | 900k      |     2.77     |     3.76     | 5.44  |    18.57%    |
-| This repo | From the Scratch | Imagen + Corr. Volume | 305k      |     2.98     |     3.85     | 5.53  |    19.04%    |
+|                | Pretraining       | Network               | Iteration | Sintel.clean | Sintel.final | KITTI | KITTI Fl-all |
+|:--------------:|-------------------|-----------------------|-----------|:------------:|:------------:|:-----:|:------------:|
+|     Paper      | Palette-style     | Efficient U-Net                | Unknow    |     2.04     |     2.55     | 4.47  |    16.59%    |
+|   This repo    | From the Scratch  | Efficient U-Net                | 305k      |     2.96     |     3.97     | 6.21  |    20.38%    |
+|   This repo    | From the Scratch  | Efficient U-Net                | 900k      |     2.77     |     3.76     | 5.44  |    18.57%    |
+|   This repo    | From the Scratch  | Efficient U-Net + Corr. Volume | 305k      |     2.98     |     3.85     | 5.53  |    19.04%    |
 
 
 ## Requirements
