@@ -1,5 +1,5 @@
 # FlowDiffusion_pytorch
-This repo contains all codes and models of our [technique report](), including an unofficial pytorch implementation of [DDVM](https://diffusion-vision.github.io/).
+This repo contains all codes and models of our technique report [open DDVM](https://arxiv.org/abs/2312.01746), including an unofficial pytorch implementation of [DDVM](https://diffusion-vision.github.io/).
 
 ## Results
 
@@ -79,10 +79,10 @@ This repo is released under the Apache License
   year={2023}
 }
 
-@misc{dong2023reproduction,
-  title = {Reproduction and Extension of Diffusion Models for Optical Flow Estimation},
+@misc{dong2023openddvm,
+  title = {Open-DDVM: A Reproduction and Extension of Diffusion Model for Optical Flow Estimation},
   author = {Dong, Qiaole and Zhao, Bo and Fu, Yanwei},
-  journal = {arXiv preprint arXiv:},
+  journal = {arXiv preprint arXiv:2312.01746},
   year = {2023}}
 }
 ```
