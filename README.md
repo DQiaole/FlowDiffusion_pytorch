@@ -22,7 +22,7 @@ AF-pretraining:
 ```shell
 conda create --name ddvm
 conda activate ddvm
-pip install imagen-pytorch accelerate diffusers["torch"] tensorflow-cpu tensorflow-addons tensorboard
+pip install -r requirement.txt
 ```
 
 ## Models
