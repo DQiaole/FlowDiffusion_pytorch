@@ -107,6 +107,10 @@ class DDPMPipeline(DiffusionPipeline):
         else:
             model_input = inputs
             timesteps = self.scheduler.timesteps[-start_t:]
+            # since we do not want to use a random noise 
+            # for start_t being a non-zero step 
+            # (for example: the coarse-to-fine pattern)
+            image = inputs[:,-2:,:,:] # use coarse flow you predicted already
 
         for t in self.progress_bar(timesteps):
             # 1. predict noise model_output
